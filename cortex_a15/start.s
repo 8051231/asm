@@ -79,3 +79,8 @@ reset:
 	@bl cpu_init_crit
 
 	bl main
+	cmp r0,#0
+	bne .
+	b reset
+
+

@@ -15,9 +15,22 @@ int init(int a,int b,int c,int d)
 }
 */
 
-unsigned char i=0;
+//unsigned char i=0;
 int main(int num,const char* str)
 {
-	i++;
-    return 0;
+	int i = 1;
+
+    while(1)
+	{
+		int j = 9;
+		int h = 10;
+		int w = 0;
+		w = j + h;
+		i++;
+		if (2 == i)
+
+
+			break;
+	}
+	return 0;
 }

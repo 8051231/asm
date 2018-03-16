@@ -1,4 +1,5 @@
 TARGET:=main
+#CROSS:=arm-linux-gnueabi-
 CROSS:=arm-none-eabi-
 OBJS:=start.o main.o
 

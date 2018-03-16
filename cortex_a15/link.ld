@@ -5,8 +5,6 @@ MEMORY
 }
 SECTIONS
 {
-	. = ALIGN(4);
-
 	.vectors :
 	{
 		*(.vectors)
